@@ -6,7 +6,7 @@ import com.example.android_movies_app.persistence.dao.*
 import com.example.android_movies_app.models.Cast
 import com.example.android_movies_app.models.Movie
 import com.example.android_movies_app.models.Review
-import com.android.myapplication.popularmovies.api.model.Video
+import com.example.android_movies_app.models.Video
 
 @Database(
     entities = [Movie::class],
