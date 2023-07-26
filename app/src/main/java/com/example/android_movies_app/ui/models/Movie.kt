@@ -1,4 +1,4 @@
-package com.example.android_movies_app.models
+package com.example.android_movies_app.ui.models
 
 import com.example.android_movies_app.util.Category
 import android.os.Parcelable

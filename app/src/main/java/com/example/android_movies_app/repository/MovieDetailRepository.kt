@@ -8,7 +8,7 @@ import com.example.android_movies_app.api.responses.ApiErrorResponse
 import com.example.android_movies_app.api.responses.ApiResponse
 import com.example.android_movies_app.api.responses.ApiSuccessResponse
 import com.example.android_movies_app.api.responses.MovieDetailsResponse
-import com.example.android_movies_app.models.MovieDetails
+import com.example.android_movies_app.ui.models.MovieDetails
 import java.util.ResourceBundle
 
 class MovieDetailRepository( private val movieApi: MoviesApi) {

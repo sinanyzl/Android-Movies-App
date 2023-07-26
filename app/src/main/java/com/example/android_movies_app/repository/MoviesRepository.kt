@@ -11,7 +11,7 @@ import com.example.android_movies_app.util.Category
 import com.example.android_movies_app.util.NetworkBoundResource
 import com.example.android_movies_app.util.Resource
 import com.example.android_movies_app.model.Movie
-import com.example.android_movies_app.models.Movie
+import com.example.android_movies_app.ui.models.Movie
 import com.example.android_movies_app.responses.MoviesResponse
 import java.util.Locale.Category
 
