@@ -10,9 +10,8 @@ import com.example.android_movies_app.util.AppExecutors
 import com.example.android_movies_app.util.Category
 import com.example.android_movies_app.util.NetworkBoundResource
 import com.example.android_movies_app.util.Resource
-import com.example.android_movies_app.model.Movie
-import com.example.android_movies_app.ui.models.Movie
-import com.example.android_movies_app.responses.MoviesResponse
+import com.example.android_movies_app.models.Movie
+
 import java.util.Locale.Category
 
 
@@ -24,7 +23,7 @@ class MoviesRepository (
         ){
         companion object{ private const val TAG = "MoviesRepository"}
 
-        fun getListMovie(pageNumber: Int, category: Category): LiveData<Resource<List<Movie>>> {
+        fun getListMovie(pageNumber: Int, category: com.example.android_movies_app.util.Category): LiveData<Resource<List<Movie>>> {
 
                 return object : NetworkBoundResource<List<Movie>, MoviesResponse>(appExecutors) {
 

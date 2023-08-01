@@ -8,8 +8,8 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.android.myapplication.movies.R
-import com.example.android_movies_app.ui.models.MovieDetails
+
+import com.example.android_movies_app.models.MovieDetails
 import com.example.android_movies_app.ui.detail.fragments.CastAdapter
 import com.example.android_movies_app.ui.detail.fragments.ReviewAdapter
 import com.example.android_movies_app.ui.fragments.TrailerAdapter
@@ -17,6 +17,7 @@ import com.example.android_movies_app.util.Resource
 import com.example.android_movies_app.ui.models.*
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
+import com.example.android_movies_app.models.Genre
 import com.example.android_movies_app.util.IMAGE_BACKDROP_FILE_SIZE
 import com.example.android_movies_app.util.IMAGE_BASE_URL
 import com.example.android_movies_app.util.IMAGE_FILE_SIZE
